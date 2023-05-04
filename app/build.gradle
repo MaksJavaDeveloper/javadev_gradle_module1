@@ -35,7 +35,7 @@ application {
 
 jar {
     destinationDirectory.set(file("$rootDir/"))
-    archiveFileName.set("java_dev_gradle.jar")
+    archiveFileName.set("myname.jar")
     manifest {
         attributes "Main-Class": "java_dev_gradle_module1.App"
     }
